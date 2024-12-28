@@ -309,7 +309,29 @@ footer p {
   gap: 15px;
   align-items: center;
 }
-
+.circle {
+  display: inline-block;
+  width: 24px; 
+  height: 24px;
+  font-size: 13px;
+  border-radius: 50%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  line-height: 24px; 
+  margin-left: 8px; 
+  border: solid 1px;
+  border-color: black;
+}
+.active-tab{
+  width: 20px;
+  height: 30px;
+  text-align: center;
+  border: solid 1px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .tabs .tab {
   display: flex;
   align-items: center;
@@ -337,7 +359,8 @@ footer p {
 }
 .search {
   position: absolute;
-  left: 50%;
+  
+  left: 65%;
   transform: translateX(-50%);
   display: flex;
   align-items: center;
@@ -376,9 +399,9 @@ footer p {
 
 .nav-center {
   display: flex;
-  justify-content: center; /* Centers items horizontally */
-  align-items: center;     /* Centers items vertically */
-  height: 100vh;           /* Full viewport height to vertically center */
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;           
 }
 .nav-fonts{
   text-decoration: none;
