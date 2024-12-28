@@ -372,3 +372,17 @@ footer p {
   color: #555;
   pointer-events: none;
 }
+
+
+.nav-center {
+  display: flex;
+  justify-content: center; /* Centers items horizontally */
+  align-items: center;     /* Centers items vertically */
+  height: 100vh;           /* Full viewport height to vertically center */
+}
+.nav-fonts{
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  margin-left: 10px;
+}
