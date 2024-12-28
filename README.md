@@ -1,4 +1,4 @@
-# Angular Project: [Your Project Name]
+# Angular Project: Admin Panel
 
 ## Overview
 This is a responsive Angular project built using HTML and CSS to showcase [brief description of the project]. The project focuses on [key features or purpose of the project].
