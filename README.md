@@ -1,6 +1,3 @@
-Here’s a sample `README.md` file for your Angular project using HTML and CSS. Let me know if you’d like to customize it further!
-
-```markdown
 # Angular Project: [Your Project Name]
 
 ## Overview
@@ -19,7 +16,6 @@ This is a responsive Angular project built using HTML and CSS to showcase [brief
 - **Angular**: Framework for building dynamic web applications.
 - **HTML5**: Markup for structuring the application.
 - **CSS3**: Styling and layout.
-- [Add more technologies if applicable]
 
 ---
 
