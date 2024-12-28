@@ -1,4 +1,3 @@
-/* Googlefont Poppins CDN Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
@@ -197,7 +196,7 @@
 }
 
 .top-navbar .nav-right .nav-link:hover {
-  color: #1abc9c;
+  color: #007bff;
 }
 
 .home-section {
@@ -211,8 +210,21 @@
   transition: color 0.3s;
 }
 .top-navbar .nav-right .nav-icon:hover {
-  color: #1abc9c;
+  color: #007bff;
 }
+.nav-center {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;           
+}
+.nav-fonts{
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  margin-left: 10px;
+}
+
 
 /* home-css */
 .home-content{
@@ -309,12 +321,10 @@ tbody tr:nth-child(even) {
   height: 24px;
   font-size: 13px;
   border-radius: 50%;
-  color: rgb(0, 0, 0);
   text-align: center;
   line-height: 24px; 
   margin-left: 8px; 
   border: solid 1px;
-  border-color: black;
 }
 .active-tab{
   width: 17px;
@@ -335,9 +345,8 @@ tbody tr:nth-child(even) {
   color: #555;
 }
 
-.tabs .tab.active {
+.tabs .tab:hover {
   color: #007bff;
-  font-weight: bold;
   border-bottom: 2px solid #007bff;
 }
 .nav-prof{
@@ -352,9 +361,11 @@ tbody tr:nth-child(even) {
   font-size: 16px;
   font-weight: bold;
 }
+.bx-filter{
+  font-size: 30px;
+}
 .search {
   position: absolute;
-  
   left: 65%;
   transform: translateX(-50%);
   display: flex;
@@ -391,20 +402,6 @@ tbody tr:nth-child(even) {
   pointer-events: none;
 }
 
-
-.nav-center {
-  display: flex;
-  justify-content: center; 
-  align-items: center;     
-  height: 100vh;           
-}
-.nav-fonts{
-  text-decoration: none;
-  text-align: center;
-  color: #fff;
-  margin-left: 10px;
-}
-
 /* footer-css */
 footer {
   display: flex;
@@ -418,6 +415,9 @@ footer p {
   margin: 0;
   font-size: 11px;
   color: #666;
+}
+.fotter-p{
+  margin-left: 5px;
 }
 .left {
   text-align: left;
