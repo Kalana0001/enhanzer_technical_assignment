@@ -283,12 +283,6 @@ tbody tr:nth-child(even) {
   font-weight: bold;
 }
 
-footer p {
-  margin: 0;
-  font-size: 11px;
-  color: #666;
-}
-
 /* header-css */
 
 .header {
@@ -323,14 +317,15 @@ footer p {
   border-color: black;
 }
 .active-tab{
-  width: 20px;
-  height: 30px;
+  width: 17px;
+  height: 23px;
   text-align: center;
   border: solid 1px;
   border-radius: 3px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 13px;
 }
 .tabs .tab {
   display: flex;
@@ -408,4 +403,26 @@ footer p {
   text-align: center;
   color: #fff;
   margin-left: 10px;
+}
+
+/* footer-css */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 10px; 
+  background-color: #f1f1f1; 
+}
+
+footer p {
+  margin: 0;
+  font-size: 11px;
+  color: #666;
+}
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
 }
