@@ -5,9 +5,9 @@ This is a responsive Angular project built using HTML and CSS to create an **Adm
 ---
 
 ## Features
-- [Feature 1: e.g., Responsive Design]
-- [Feature 2: e.g., Dynamic Components]
-- [Feature 3: e.g., User-Friendly Interface]
+- esponsive Design
+- Dynamic Components
+- User-Friendly Interface
 
 ---
 
